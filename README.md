@@ -15,15 +15,26 @@ Before you begin, ensure you have the following installed on your machine:
 ## Getting Started
  
  In STS, right-click the project, select Run As > Spring Boot App.
+ 
 The application should now be running on http://localhost:8080.
 
->> API Endpoints
+<b> # API Endpoints</b>
+
 You can test the following endpoints after starting the application:
 
-GET /api/users - Retrieves all users.[http://localhost:8080/Users]
-GET /api/users - Retrieves any one users.[http://localhost:8080/Users/{Id}]
-POST /api/users - Adds a new user.[http://localhost:8080/Users]
-PUT /api/users/{id} - Updates a user by ID.[http://localhost:8080/Users/{Id}]
-DELETE /api/users/{id} - Deletes a user by ID.[http://localhost:8080/Users/{Id}]
+- **GET** `/api/users` - Retrieves all users.  
+  [http://localhost:8080/Users]
 
-----------------------------------THANK YOU!------------------------------------
+- **GET** `/api/users/{id}` - Retrieves a specific user by ID.  
+  [http://localhost:8080/Users/{id}]
+
+- **POST** `/api/users` - Adds a new user.  
+  [http://localhost:8080/Users]
+
+- **PUT** `/api/users/{id}` - Updates a user by ID.  
+  [http://localhost:8080/Users/{id}]
+
+- **DELETE** `/api/users/{id}` - Deletes a user by ID.  
+  [http://localhost:8080/Users/{id}]
+
+----------------------------------<b>THANK YOU!<b>------------------------------------
